@@ -13,7 +13,6 @@ public class NonBlockingStatusController {
 
     @Get("/_status")
     Single<String> status() {
-        logger.info("Non blocking status");
         return Single.just("OK" + Thread.currentThread().getName());
     }
 }
