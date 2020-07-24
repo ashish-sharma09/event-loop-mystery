@@ -2,6 +2,6 @@ micronaut:
     executors:
         io:
             type: fixed
-            nThreads: 20
+            nThreads: 10
     server:
         port: 8086
