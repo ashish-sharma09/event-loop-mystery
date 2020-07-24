@@ -1,0 +1,7 @@
+micronaut:
+    executors:
+        io:
+            type: fixed
+            nThreads: 20
+    server:
+        port: 8086
